@@ -2,7 +2,7 @@ import './index.css';
 import { useState } from 'react';
 import { artistList } from './data';
 import { Box, Button, IconButton, Typography } from '@mui/material';
-import { ExpandMore, ExpandLess } from '@mui/icons-material';
+import { ExpandMore } from '@mui/icons-material';
 
 export default function Gallery() {
   const [index, setIndex] = useState(0);
